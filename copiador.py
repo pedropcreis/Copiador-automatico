@@ -1,16 +1,5 @@
 from openpyxl import load_workbook
-print('-' * 20)
-print('''Orientações para uso:
-*Este programa copia automaticamente dados de arquivos no formato .txt para arquivos no formato .xlsx;
-*Você precisa criar arquivos com 'nomes base' seguidos de um número sequencial, ou seja, todos os arquivos de mesmo formato devem ter o mesmo\nnome e variar apenas no número;
-Por exemplo: suponha que você tenha vários arquivos xlsx para preencher com números de telefone.
-Em seu diretório, crie um arquivo com uma planilha modelo, e o copie até dar o número de arquivos que precisa.
-Nomeie os arquivos do seguinte modo: telefones01.xlsx, telefones02.xlsx e assim por diante.
-Faça o mesmo com os arquivos .txt.
-É importante que nos arquivos txt os dados estejam 'juntos', isto é, que estejam um embaixo do outro sem linhas em branco. 
-Este programa irá pegar os dados linha por linha, por isso os organize com antecedência nos arquivos de textos de modo que o programa só precise pegar os dados e copiá-los nas células fornecidas.
-*Com os passos acima\nconcluídos, basta informar o menor número sequencial (ponto de início) e o maior número (fim) dos arquivos xlsx. Vale lembrar que o arquivo do\nnúmero que marca o fim também será preenchido!
-*Certifique-se de que o nome das planilhas dentro de todos os arquivos xlsx sejam IGUAIS.''')
+print('-' * 15, 'COPIADOR AUTOMÁTICO PARA GRANDES QUANTIDADES DE DADOS' , '-' * 15)
 
 print('-' * 20, 'DADOS DO DIRETÓRIO', '-' * 20)
 
